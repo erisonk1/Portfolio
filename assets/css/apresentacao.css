@@ -1,82 +1,81 @@
-.apresentacao{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    position: relative;
+.apresentacao {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  gap: 60px;
 }
 
-.apresentacao-div-text h1{
-    font-size: 5vw;
-    color: #ffffff;
-    line-height: 1;
+.apresentacao-div-text h1 {
+font-size: 100px;
+  color: #ffffff;
+  line-height: 1;
 }
-.apresentacao-div-text p{
-    font-size: 2vw;
-    color: #B3B3B3;
-    margin: 0;
-    width: 100%;
-}
-.apresentacao-div-text span{
-    margin-left: 30pxs;
+.apresentacao-div-text p {
+  color: #b3b3b3;
+  margin: 0;
+  width: 100%;
 }
 
-.apresentacao-div-text{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0;
-    position: relative;
+.apresentacao-div-text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  position: relative;
 }
 
 .apresentacao-text {
-    padding: 20px;
-    border-radius: 50px 10px;
-    text-align: left;
+  padding: 20px;
+  border-radius: 50px 10px;
+  text-align: left;
 }
 span {
-    margin-left: 10vw;
+  margin-left: 10vw;
 }
 
-.photo{
-    width: 22%;
-    border: solid #E6E6E6 1px;
-    border-radius: 5% 50%;
-    background: #00FFFF;
-    background: radial-gradient(circle,rgba(0, 195, 255, 1) 25%, rgba(0, 255, 255, 1) 50%);
-    
+.photo {
+  width: 22%;
+  border: solid #e6e6e6 1px;
+  border-radius: 5% 50%;
+  background: #00ffff;
+  background: radial-gradient(
+    circle,
+    rgba(0, 195, 255, 1) 25%,
+    rgba(0, 255, 255, 1) 50%
+  );
 }
 
 .borda {
-    position: absolute;
-    width: 40px;
+  position: absolute;
+  width: 40px;
 }
 .borda1 {
-    top:  0px;
-    left: 40px;
+  top: 0px;
+  left: 40px;
 }
 .borda2 {
-    bottom: 0px;
-    right: 40px;
-    rotate: 180deg;
+  bottom: 0px;
+  right: 40px;
+  rotate: 180deg;
 }
 .bio {
-    padding-top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .bio-text {
-    width: 60%;
-    font-size: 0.7vw;
-    text-align: center;
+  width: 60%;
+  text-align: center;
 }
 .arrow {
-    position: absolute;
-    width: 60px;
-    bottom: -80px;
-    rotate: 90deg;
-    opacity: 0.2;
+  position: absolute;
+  width: 60px;
+  bottom: -80px;
+  rotate: 90deg;
+  opacity: 0.2;
 }
