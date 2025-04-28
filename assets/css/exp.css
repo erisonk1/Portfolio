@@ -8,6 +8,7 @@
   align-self: center;
   text-align: center;
   background-color: #050505;
+
 }
 
 .exp h1 {
@@ -40,5 +41,5 @@
 }
 
 .card img {
-  height: 150px;
+  height: 130px;
 }

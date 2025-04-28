@@ -3,7 +3,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 0;
+  padding: 20px 0;
   gap: 10px;
   flex-direction: column;
   color: white;
